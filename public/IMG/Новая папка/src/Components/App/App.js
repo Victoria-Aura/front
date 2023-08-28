@@ -2,12 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {NavPanel} from '../NavPanel';
-import Brand from '../Brand/Brand';
+import { Brand } from '../Brand';
 import { AboutUs } from '../AboutUs';
 import { Disciplines } from '../Disciplines';
-
-import News from '../News/News'
-
 
 function App() {
   return (
@@ -15,7 +12,6 @@ function App() {
       <NavPanel />
       <Brand />
       <AboutUs />
-      <News />
       <Disciplines />
     </div>
 

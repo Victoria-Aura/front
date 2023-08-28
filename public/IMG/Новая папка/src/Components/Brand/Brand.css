@@ -3,11 +3,12 @@ body {
 }
 
 .brand1 {
-    /* background: url('../../../public/IMG/bg.jpg') no-repeat; */
+    background: url('../../../public/IMG/bg.jpg') no-repeat;
     /* background-size: 100%;  */
     background-color: #1E1E1E;
     width: 100%;
     height: 800px;
+    margin-top: 3%;
     padding-top: 1%;
 }
 
