@@ -1,7 +1,7 @@
 import React from 'react';
 import List from '../UI/List/List';
 import './News.css'
-import { Container,Stack,Button, Row,Col } from 'react-bootstrap';
+import { Container,Stack,Button, Row,Col,Spinner } from 'react-bootstrap';
 import NewsService from '../../API/NewsService'
 
 import MiniItemList from '../UI/Item/MiniItemList';
@@ -11,7 +11,6 @@ import { useGetAndSetData } from '../../hooks/useGetAndSetData';
 
 const News = () => {
     const [DataNews,setNews,isLoading,Err] = useGetAndSetData(NewsService.getNews)
-
  
     return (
         <div className='root'>
