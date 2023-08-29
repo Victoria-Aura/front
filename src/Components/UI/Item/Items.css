@@ -1,0 +1,66 @@
+/* MAIN CSS  */
+
+.post{
+    background-color: #171616;
+    color: white;
+    font-family:"Bahnschrift";
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.post:hover {
+    background-color: #212020;
+    box-shadow: 0 0 0 2px rgb(179, 179, 179);
+}
+
+
+.text-second{
+    opacity: .3;
+}
+
+/* LARGE POST */
+
+.large-post{
+    max-width: 800px;
+    position: relative;
+    text-align: center;
+} 
+.large-post-text{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* MINI POST */
+.mini-post{
+    height: 100px;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+
+}
+.mini-post-text {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.mini-post-img{
+    height: 100%;
+    width: 30%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    border-radius: 5px;
+}
+
+/* MID POST */
+
+
+.post-mid{
+    height:430px;
+    width:300px;
+    border-radius:20px;
+}
+.post-mid img{
+    height:90%;
+    width:100%;
+    border-radius:20px;
+}
