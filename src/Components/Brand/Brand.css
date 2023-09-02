@@ -10,6 +10,9 @@ body {
     text-align: center;
     font-family: "Bahnschrift";
     color: #fbf5db;
+    min-height: 700px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
