@@ -2,7 +2,6 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 
 const List = ({posts,ElemPost,orientation='vertical'}) => {
-    
     return (
         <>
             {orientation === 'vertical'
@@ -12,7 +11,7 @@ const List = ({posts,ElemPost,orientation='vertical'}) => {
             </>
             :
             <>
-            {posts.map(post => <Col><ElemPost post={post} /></Col>)}
+            {posts.map(post => <Col ><ElemPost post={post} /></Col>)}
             </>
             }
         </>

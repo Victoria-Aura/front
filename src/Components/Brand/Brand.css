@@ -3,17 +3,18 @@ body {
 }
 
 .brand1 {
-    /* background: url('../../../public/IMG/bg.jpg') no-repeat; */
-    /* background-size: 100%;  */
+    background-size: 100%; 
     background-color: #1E1E1E;
     width: 100%;
-    height: 800px;
-    padding-top: 1%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: "Bahnschrift";
+    color: #fbf5db;
 }
 
 
 
-.logo1 {
+.logo {
     height: 200px;
     width: 200px;
     display: flex;
@@ -22,30 +23,21 @@ body {
 }
 
 .brandAbout1 {
-    font-family: "Bahnschrift";
     font-size: 44px;
     color: #fbfbfb;
-    text-align: center;
-    margin-top: 2%;
     text-shadow: 1px 0px 1px #2b2a2f;
 }
 
 
 .brandName {
-    font-family: "Bahnschrift";
     font-size: 169px;
-    text-align: center;
-    color: #fbf5db;
     text-shadow: 3px 1px 3px #E95C48;
-    margin-top: -2%;
 }
 
 .brandAbout2 {
-    font-family: "Bahnschrift";
     font-size: 64px;
     color: #fbfbfb;
-    text-align: center;
-    margin-top: -3%;
     text-shadow: 1px 0px 1px #2b2a2f;
+    padding-bottom: 5%;
 }
 

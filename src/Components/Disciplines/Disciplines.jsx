@@ -21,4 +21,4 @@ function Disciplines() {
   );
 }
 
-export { Disciplines };
+export default Disciplines ;

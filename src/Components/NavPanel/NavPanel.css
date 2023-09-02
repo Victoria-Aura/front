@@ -1,5 +1,5 @@
 .nav {
-    /* background-color: rgb(0, 42 47); */
+    background-color: rgb(0, 42 47);
     display: flex;
     z-index: 1;
     position: fixed;
@@ -69,6 +69,7 @@
 .logInBtn {
     height: 32px;
     width: 100px;
+    margin-top: 2%;
     margin-right: 10px;
     font-family: "Bahnschrift";
     display: flex;
