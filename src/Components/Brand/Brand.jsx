@@ -3,7 +3,7 @@ import { useGetAndSetData } from '../../hooks/useGetAndSetData';
 import { useGetImg } from '../../hooks/useGetImg';
 
 import './Brand.css'
-import Loader from '../Loader/Loader';
+import Loader from '../UI/Loader/Loader';
 import React from 'react';
 
 
