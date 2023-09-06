@@ -1,59 +1,65 @@
-.Whoweare {
-    padding-top: 10%;
+/* .Whoweare {
+    padding-top: 5%;
     font-family: "Bahnschrift";
-    font-size: 100px;
+    font-size: 7vw;
     color: #da3f3e;
     margin-left: 0%;
     text-shadow: 1px 1px 1px #2b2a2f;
     text-align: center;
+    padding-bottom: 5%;
 }
 
-Container {
-    z-index: 1;
-}
-
-
-.description {
-    display: flex;
-}
-
-.descriptiontext {
-    font-family: "Bahnschrift";
-    font-size: 24px;
-    text-align: left;
-    margin-left: 0%;
-    margin-top: 2.5%;
+.Discription {
     color: #2b2a2f;
-    /* text-shadow: 0.5px 0px 0.5px ; */
-}
-
-.aboutUsIMG {
-    height: 300px;
-    margin-left: 20%;
-    margin-top: 0%;
-    justify-content: right;
-
-}
-
-.learnMore {
+    padding-left: 15%;
+    /* width: 50%; */
+    /* font-size: 3vw;
     font-family: "Bahnschrift";
-    font-size: 20px;
-    color: #2b2a2f;
-    margin-top: -2%;
 }
 
-.bgTxt0 {
-    z-index: 0;
-}
+.AboutUsLogo {
+    width: 22vw;
+    height: 22vw;
+    margin-left: 30%;
+} */ 
 
-.bgtext {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: transparent;
-    -webkit-text-stroke: 5px #2b2a2f;
-    font-size: 300px;
-    margin-bottom: -18%;
-    margin-left: 5%;
-    padding-top: 1%;
-    opacity: .03;
-}
-
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .about-content {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Медиазапросы для адаптивности */
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 30px;
+    }
+    .about-content {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-header h1 {
+      font-size: 24px;
+    }
+    .about-content {
+      font-size: 14px;
+    }
+  }

@@ -3,7 +3,7 @@ import { useState,useEffect } from "react"
 
 
 export const useFetching = (callback) => {
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState('');
     const fetching = async () => {
         try {

@@ -1,55 +1,40 @@
 import React from 'react';
 import { Navbar,Nav,Button } from 'react-bootstrap';
 import './NavPanel.css';
-
-
-
+import { LinkContainer } from 'react-router-bootstrap'
+import { Link } from 'react-router-dom';
 
 
 export const NavPanel = () => {
     return (
-    //     <Navbar className="nav">
-    //         {/* <div>
-    //             <img src='./lillogo.png' alt='' className='logo' />    
-    //         </div> */}
-    //     <Nav.Link href="#home">
-    //         <div className='brand'>VICTORIA AURA</div>
-    //     </Nav.Link>
-    //     <Navbar.Toggle />
-    //     <Nav.Link href="#home" className="homeBtn">
-    //     Главная
-    //     </Nav.Link>
-    //     <Nav.Link href="#news" className="newsBtn">
-    //     Новости
-    //     </Nav.Link>
-    //     <Nav.Link href="#aboutUs" className="aboutUsBtn">
-    //     О нас
-    //     </Nav.Link>
-    //     <Navbar.Collapse className="justify-content-end">
-            
-            
-    //         <Button variant="secondary" className="logInBtn">
-    //         Авторизация
-    //         </Button>
-    //         <Button variant="danger" className="signInBtn">
-    //         Регистрация
-    //         </Button>
-          
-    //     </Navbar.Collapse>
-    <Navbar id='TopAppBar' collapseOnSelect expand="lg" className="nav visible" variant='dark'>
-        <Navbar.Brand href="#home" style={{marginLeft:"2%"}}>VICTORIA AURA</Navbar.Brand>
+    <Navbar id='TopAppBar' collapseOnSelect expand="lg" className="nav visible" variant='dark' bg='dark'>
+        <LinkContainer to="/" style={{marginLeft:"2%"}}>
+          <Navbar.Brand href="#home" >VICTORIA AURA</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#Home">Главная</Nav.Link>
-            <Nav.Link href="#News">Новости</Nav.Link>
-            <Nav.Link href="#AboutUs">О нас</Nav.Link>
+            <LinkContainer to="/">
+              <Nav.Link  >Главная</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/News">
+              <Nav.Link  >Новости
+            </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/AboutUs">
+              <Nav.Link  >О нас</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/Tournaments">
+              <Nav.Link  >Турниры</Nav.Link>
+            </LinkContainer>
+
           </Nav>
-          <Nav style={{paddingRight:"2%"}}>
+          {/* <Nav style={{paddingRight:"2%"}}>
             <Button variant="secondary" className='logInBtn'>Авторизация</Button>
             <Button variant="danger" className='signInBtn'>Регистрация</Button>
-          </Nav>
+          </Nav> */}
         </Navbar.Collapse>
     </Navbar>
     );
+
 };
