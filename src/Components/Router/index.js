@@ -1,11 +1,11 @@
-import Home from '../../Pages/Home';
-import Error from '../../Pages/Error';
-import News from '../../Pages/News';
+import HomePage from '../../Pages/HomePage';
+import ErrorPage from '../../Pages/ErrorPage';
+import NewsPage from '../../Pages/NewsPage';
 import AboutUsPage from '../../Pages/AboutUsPage';
  
 export const router = [
-    {path:'/',element:<Home />},
-    {path:'*',element:<Error />},
-    {path:'/News',element:<News />},
+    {path:'/',element:<HomePage />},
+    {path:'*',element:<ErrorPage />},
+    {path:'/News',element:<NewsPage />},
     {path:'/AboutUs',element:<AboutUsPage />},
 ]

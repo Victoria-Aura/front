@@ -1,28 +1,15 @@
 .aboutUsDiv {
-    padding-top: 5vw;
-    display: flex;  
-    justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #1E1E1E;
-    overflow: hidden;
-    object-fit: cover;
-    -moz-background-size: 100%; 
-    -webkit-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%;
-
-    min-height: 100%;
-    min-width: 1024px;
-
-    width: 100%;
-    height: auto;
-
-
+    padding-top: 6%;
+    background-size: cover;
+    padding-bottom: 5%;
 
 }
 
 .aboutUsLogo {
+    margin-top: 10%;
     height: 12vw;
     width: 12vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }

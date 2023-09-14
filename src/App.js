@@ -5,12 +5,14 @@ import {NavPanel} from './Components/NavPanel/NavPanel';
 import { BrowserRouter } from 'react-router-dom';
 
 import AppRouter from './Components/UI/AppRouter/AppRouter';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <BrowserRouter>
-      <NavPanel />
+      {/* <NavPanel /> */}
       <AppRouter />
+      <Footer />
     </BrowserRouter>
   );
 }

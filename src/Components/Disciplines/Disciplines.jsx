@@ -32,7 +32,7 @@ function Disciplines() {
 
 
                     
-                    <img src={valorant} alt='/valorant'  className='disciplinesIcon'/>
+                    <a href='/tournaments/valorant' ><img src={valorant} alt='' className="disciplinesIcon"></img></a>
                     <h1 className='disciplinesName'>VALORANT</h1>
                     
                     
@@ -42,7 +42,7 @@ function Disciplines() {
 
                   <div href='/lol' className='disciplinesBackItem'>
                     
-                    <img src={LOL} alt='/lol' className='disciplinesIcon' />
+                    <a href='/tournaments/lol' ><img src={LOL} alt='' className="disciplinesIcon"></img></a>
                     <h1 className='disciplinesName'>LOL</h1>
 
                   </div>
@@ -53,7 +53,7 @@ function Disciplines() {
 
                 <div href='/cs2' className='disciplinesBackItem'>
                     
-                    <img src={cs2} alt='/cs2' className='disciplinesIcon' />
+                    <a href='/tournaments/cs2' ><img src={cs2} alt='' className="disciplinesIcon"></img></a>
                     <h1 className='disciplinesName'>CS2</h1>
 
                   </div>
@@ -63,7 +63,7 @@ function Disciplines() {
                   
                 <div href='/dota' className='disciplinesBackItem'>
                     
-                    <img src={dota2} alt='/dota' className='disciplinesIcon' />
+                    <a href='/tournaments/dota2' ><img src={dota2} alt='' className="disciplinesIcon"></img></a>
                     <h1 className='disciplinesName'>DOTA2</h1>
 
                   </div>
