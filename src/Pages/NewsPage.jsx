@@ -1,10 +1,12 @@
 import React from 'react';
+import NewsPageComp from '../Components/NewsPageComp/NewsPageComp';
 
-const News = () => {
+const NewsPage = () => {
     return (
-        <div style={{width:'100%',height:'100vh', background: 'linear-gradient(#e66465, #9198e5)'}}>
-        </div>
+        <>
+            <NewsPageComp />
+        </>
     );
 };
 
-export default News;
+export default NewsPage;

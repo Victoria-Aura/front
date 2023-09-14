@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
-      {/* <NavPanel /> */}
+      <NavPanel />
       <AppRouter />
       <Footer />
     </BrowserRouter>

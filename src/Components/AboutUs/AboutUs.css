@@ -1,12 +1,12 @@
 .aboutUsDiv {
-    padding-top: 6%;
+    padding-top: 1%;
     background-size: cover;
     padding-bottom: 5%;
-
+    position: sticky;
 }
 
 .aboutUsLogo {
-    margin-top: 10%;
+    margin-top: 80px;
     height: 12vw;
     width: 12vw;
     display: flex;
