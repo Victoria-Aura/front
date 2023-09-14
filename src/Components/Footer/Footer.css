@@ -4,22 +4,45 @@
     padding: 20px 0;
   }
   
+footer p {
+  font-size: 16px;
+  font-family: "Bahnschrift";
+}
+
+footer a {
+  font-size: 16px;
+  font-family: "Bahnschrift";
+}
+
   .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    /* margin-left: 15%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3%;
   }
   
+.footer-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
   .footer-logo img {
-    width: 100px;
-    height: 100px;
+    width: 8vw;
+    height: 8vw;
+    
+    /* object-position: center; */
   }
   
+.footer-info {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
   .footer-info p {
-    margin: 0;
+    text-align: center;
   }
   
   .footer-links ul {
@@ -42,4 +65,34 @@
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
   }
+  
+  /* Адаптивные стили для мобильных устройств */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+    .footer-info {
+      margin-bottom: 20px;
+    }
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }
+
+.footer-links {
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+.footerLinks {
+  padding-right: 5%;
+}

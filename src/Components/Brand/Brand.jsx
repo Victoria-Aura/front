@@ -18,7 +18,7 @@ const Brand = () => {
                 <Loader style={{marginTop:300}}></Loader>
             </div>
             :
-            <div className='brand1' style={{ background: `url(${bg})` }}>
+            <div className='brand1' style={{ backgroundImage: `url(${bg})` }}>
                 <img src={logo} alt='' style={{ marginTop: 50 }} className='logo' />
                 <div className='brandAbout1'>ЛЮБИТЕЛЬСКИЕ И ПРОФЕССИОНАЛЬНЫЕ ТУРНИРЫ</div>
                 <h1 className='brandName'>VICTORIA AURA</h1>

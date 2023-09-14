@@ -4,9 +4,15 @@
     background: linear-gradient(to right, #da3f3e, #171616)
 }
 .text{
+    margin-top: 2%;
     margin-left: 30px;
     font-family:"Bahnschrift";
     color: white;
     text-shadow:
-    1px 1px 1px #171616,
+    1px 1px 1px #171616;
+}
+
+.ms-auto {
+    margin-right: 30px;
+    margin-top: 2%;
 }

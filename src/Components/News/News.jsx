@@ -19,7 +19,7 @@ const News = () => {
                 {isLoading
                 ? <Loader style={{marginTop:150}}></Loader>
                 : 
-                <Container>
+                <Container style={{paddingBottom:"2%"}}>
                     <Stack direction="horizontal" gap={3}>
                         <h1 className='text p-2'>Новости</h1>
                         <Button className='ms-auto' variant="danger">Больше</Button>    

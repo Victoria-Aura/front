@@ -21,7 +21,7 @@
 
 
 .game {
-    text-decoration: none;
+    text-decoration: none; 
     
 }
 
@@ -66,4 +66,39 @@
     text-align: center;
 }
 
+.disciplinesIcon {
+    width: 12vw;
+    height: 18vw;
+    position: relative;
+    border-radius: 1.5vw;
+    transition: 0.2s;
+    
+    z-index: 3;
+}
 
+.disciplinesIcon:hover {
+    transform: translate(0, -3%);
+    -webkit-transform: translate(0, -3%);
+    -o-transform: translate(0, -3%);
+    -moz-transform: translate(0, -3%);
+    box-shadow: 0 0 0 1px #fbf5db;
+}
+
+.disciplinesBackItem {
+    background-color: #242327;
+    position: absolute;
+    border-radius: 1.5vw;
+    transition: 0.1s;
+    text-align: center;
+}
+
+
+
+.disciplinesName {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}

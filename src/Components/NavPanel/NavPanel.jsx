@@ -21,18 +21,19 @@ export const NavPanel = () => {
               <Nav.Link  >Новости
             </Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/AboutUs">
-              <Nav.Link  >О нас</Nav.Link>
-            </LinkContainer>
             <LinkContainer to="/Tournaments">
               <Nav.Link  >Турниры</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/AboutUs">
+              <Nav.Link  >О нас</Nav.Link>
+            </LinkContainer>
+            
 
           </Nav>
-          {/* <Nav style={{paddingRight:"2%"}}>
+          <Nav style={{paddingRight:"2%"}}>
             <Button variant="secondary" className='logInBtn'>Авторизация</Button>
             <Button variant="danger" className='signInBtn'>Регистрация</Button>
-          </Nav> */}
+          </Nav>
         </Navbar.Collapse>
     </Navbar>
     );
