@@ -10,13 +10,13 @@ body {
     background-color: #1E1E1E;
     height: 100%;
     width: 100%;
-    padding-top: 4%;
     text-align: center;
     font-family: "Bahnschrift";
     color: #fbf5db;
     text-align: center;
     overflow: hidden;
     object-fit: cover;
+
 }
 
 .logo {
@@ -68,6 +68,10 @@ body {
             margin-top: -1%;
             font-size: 110px;
         }
+
+        .brand1 {
+            padding-top: 120px;
+        }
     }
 
 
@@ -92,6 +96,10 @@ body {
         margin-top: -1%;
         font-size: 76px;
     }
+
+    .brand1 {
+        padding-top: 120px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -115,6 +123,9 @@ body {
             font-size: 52px;
         }
     
+        .brand1 {
+            padding-top: 100px;
+        }
 }
 
 @media (max-width: 1024px) {
@@ -136,6 +147,10 @@ body {
         .brandAbout2 {
             margin-top: -1%;
             font-size: 42px;
+        }
+
+        .brand1 {
+            padding-top: 80px;
         }
 }
 
@@ -162,6 +177,9 @@ body {
             margin-bottom: 10%;
         }
 
+        .brand1 {
+            padding-top: 40px;
+        }
 
 }
 
@@ -186,6 +204,10 @@ body {
             margin-top: -1%;
             font-size: 20px;
             margin-bottom: 10%;
+        }
+
+        .brand1 {
+            padding-top: 30px;
         }
 
 }
@@ -213,64 +235,9 @@ body {
             margin-bottom: 10%;
         }
 
+        .brand1 {
+            padding-top: 30px;
+        }
+
 }
 
-.logo {
-    -webkit-animation-name: rotation;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotation;
-    -moz-animation-duration: 15s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    -o-animation-name: rotation;
-    -o-animation-duration: 15s;
-    -o-animation-iteration-count: infinite;
-    -o-animation-timing-function: linear;
-    animation-name: rotation;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
- 
-@-webkit-keyframes rotation {
-    0% {-webkit-transform:rotate(0deg);
-        -moz-transform:rotate(0deg);
-        -o-transform:rotate(0deg);
-        transform:rotate(0deg);}
-    100% {-webkit-transform:rotate(360deg);
-        -moz-transform:rotate(360deg);
-        -o-transform:rotate(360deg);
-        transform:rotate(360deg);}
-}
-@-moz-keyframes rotation {
-    0% {-webkit-transform:rotate(0deg);
-        -moz-transform:rotate(0deg);
-        -o-transform:rotate(0deg);
-        transform:rotate(0deg);}
-    100% {-webkit-transform:rotate(360deg);
-        -moz-transform:rotate(360deg);
-        -o-transform:rotate(360deg);
-        transform:rotate(360deg);}
-}
-@-o-keyframes rotation {
-    0% {-webkit-transform:rotate(0deg);
-        -moz-transform:rotate(0deg);
-        -o-transform:rotate(0deg);
-        transform:rotate(0deg);}
-    100% {-webkit-transform:rotate(360deg);
-        -moz-transform:rotate(360deg);
-        -o-transform:rotate(360deg);
-        transform:rotate(360deg);}
-}
-@keyframes rotation {
-    0% {-webkit-transform:rotate(0deg);
-        -moz-transform:rotate(0deg);
-        -o-transform:rotate(0deg);
-        transform:rotate(0deg);}
-    100% {-webkit-transform:rotate(360deg);
-        -moz-transform:rotate(720deg);
-        -o-transform:rotate(360deg);
-        transform:rotate(360deg);}
-}	
