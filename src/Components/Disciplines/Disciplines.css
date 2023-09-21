@@ -40,7 +40,7 @@
 }
 
 .disciplinesBackItem {
-    background-color: rgb(102, 102, 102);
+    background-color: #333;
     position: absolute;
     border-radius: 1.5vw;
     transition: 0.1s;
