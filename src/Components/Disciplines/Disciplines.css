@@ -1,7 +1,26 @@
 
 
 
+.disciplinesHeader {
+    color: #8d2626;
+    text-shadow: 1px 1px 1px #fbf5db;
+    font-size: 8vw;
+    margin-left: 5%;
+    margin-top: 3%;
+}
 
+.disciplinesHeader2 {
+    color: #fbf5db;
+    font-size: 2vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.disciplinesRow {
+    margin: 5%;
+    display: flex;
+    width: 100vw;
+}
 
 .disciplinesIcon {
     width: 12vw;
@@ -9,7 +28,6 @@
     position: relative;
     border-radius: 1.5vw;
     transition: 0.2s;
-    
     z-index: 3;
 }
 
@@ -22,11 +40,13 @@
 }
 
 .disciplinesBackItem {
-    background-color: #242327;
+    background-color: rgb(102, 102, 102);
     position: absolute;
     border-radius: 1.5vw;
     transition: 0.1s;
     text-align: center;
+
+    
 }
 
 
@@ -39,3 +59,4 @@
     z-index: 2;
     margin: 0;
 }
+

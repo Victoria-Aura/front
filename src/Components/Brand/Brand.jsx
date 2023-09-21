@@ -21,7 +21,7 @@ const Brand = () => {
             <div className='brand1' style={{ backgroundImage: `url(${bg})` }}>
                 <img src={logo} alt='' style={{ marginTop: 50 }} className='logo' />
                 <div className='brandAbout1'>ЛЮБИТЕЛЬСКИЕ И ПРОФЕССИОНАЛЬНЫЕ ТУРНИРЫ</div>
-                <h1 className='brandName'>VICTORIA AURA</h1>
+                <h1 className='brandName'>VICTORY AURA</h1>
                 <div className='brandAbout2'>ОТ ГЕЙМЕРОВ ДЛЯ ГЕЙМЕРОВ</div>
             </div>
         }

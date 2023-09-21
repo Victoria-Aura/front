@@ -1,15 +1,238 @@
+
+
 .aboutUsDiv {
     padding-top: 1%;
     background-size: cover;
     padding-bottom: 5%;
     position: sticky;
+    background-image: linear-gradient( to bottom, #212529, 70%, #531818);
 }
 
 .aboutUsLogo {
+    margin: 0;
     margin-top: 80px;
-    height: 12vw;
-    width: 12vw;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+.aboutUsText {
+  padding-top: 3%;
+  display: block;
+  text-align: center;
+}
+
+.headAboutUs {
+    color: #fbf5db;
+    display: block;    
+    text-shadow: 3px 1px 3px #E95C48;
+    text-align: center;
+}
+
+.head1AboutUs    {
+    color: #fbf5db;
+    display: block;    
+    text-shadow: 3px 1px 3px #E95C48;
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+
+.aboutUsDiscription {
+    padding-top: 5%;
+    color: #E95C48;
+    margin-left: 5%;
+    margin-right: 30%;
+    text-align: left;
+}
+
+.aboutUsContacts {
+    background-size: cover;
+    padding-bottom: 5%;
+    position: sticky;
+    background-image: linear-gradient( to bottom, #531818, 70%, #212529);
+    padding-top: 5%;
+}
+
+
+
+.aboutUsLogo {
+    -webkit-animation-name: rotation;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotation;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -o-animation-name: rotation;
+    -o-animation-duration: 15s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    animation-name: rotation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+ 
+@-webkit-keyframes rotation {
+    0% {-webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform:rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);}
+}
+
+
+
+@media (max-width: 7680px) {
+    
+    .aboutUsLogo {
+      width: 14%;
+      height: 14%;
+    }
+
+    .headAboutUs {
+        font-size: 200px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 48px;
+    }
+
+    .head1AboutUs {
+        font-size: 120px;
+    }
+
+}
+
+
+@media (max-width: 2560px) {
+
+    .aboutUsLogo {
+        width: 18%;
+        height: 18%;
+      }
+
+      .headAboutUs {
+        font-size: 120px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 32px;
+    }
+
+    .head1AboutUs {
+        font-size: 80px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+
+    .aboutUsLogo {
+        width: 20%;
+        height: 20%;
+      }
+
+      .headAboutUs {
+        font-size: 120px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 24px;
+    }
+
+    .head1AboutUs {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .aboutUsLogo {
+        width: 24%;
+        height: 24%;
+      }
+
+      .headAboutUs {
+        font-size: 92px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 20px;
+    }
+
+    .head1AboutUs {
+        font-size: 46px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .aboutUsLogo {
+        width: 25%;
+        height: 25%;
+      }
+
+      .headAboutUs {
+        font-size: 72px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 16px;
+    }
+
+    .head1AboutUs {
+        font-size: 42px;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .aboutUsLogo {
+        width: 30%;
+        height: 30%;
+      }
+
+      .headAboutUs {
+        font-size: 38px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 12px;
+    }
+
+    .head1AboutUs {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .aboutUsLogo {
+        width: 30%;
+        height: 30%;
+      }
+
+      .headAboutUs {
+        font-size: 32px;
+    }
+
+    .aboutUsDiscription {
+        font-size: 12px;
+    }
+
+    .head1AboutUs {
+        font-size: 20px;
+    }
+
 }

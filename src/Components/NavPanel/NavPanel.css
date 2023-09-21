@@ -23,50 +23,20 @@
     color: #fbf5db;
 }
 
-.homeBtn {
+.navBtn {
     font-family: "Bahnschrift";
-    margin-right: 2px;
-    font-size: 20px;
-    color: #fbfbfb;
+    font-size: 16px;
+    color: #dfdfdf;
 }
 
-.homeBtn:hover {
+.navBtn:hover {
     color: #acacac;
 }
 
-.homeBtn:focus {
+.navBtn:focus {
     color: #fbfbfb;
 }
 
-.newsBtn {
-    font-family: "Bahnschrift";
-    margin-right: 2px;
-    font-size: 20px;
-    color: #fbfbfb;
-}
-
-.newsBtn:hover {
-    color: #acacac;
-}
-
-.newsBtn:focus {
-    color: #fbfbfb;
-}
-
-.aboutUsBtn {
-    font-family: "Bahnschrift";
-    margin-right: 2px;
-    font-size: 20px;
-    color: #fbfbfb;
-}
-
-.aboutUsBtn:hover {
-    color: #acacac;
-}
-
-.aboutUsBtn:focus {
-    color: #fbfbfb;
-}
 
 .logInBtn {
     height: 32px;
@@ -104,4 +74,18 @@
 .signInBtn:hover {
     background-color: #9c1419;
     color: #acacac;
+}
+
+@media (max-width: 991px) {
+    .navBtn {
+        margin-left: 2%;
+    }
+
+
+    #logIn{
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+
+    
 }
